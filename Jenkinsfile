@@ -1,7 +1,7 @@
 node{
 
     stage("SCM Checkout"){
-        git credentialsId: 'git-credentials', url: 'https://github.com/dall49/my-app.git'
+        git credentialsId: 'git-credentials', url: 'https://github.com/Daphneebouyedi/my-app.git'
     }
     
     stage("MVN package"){
